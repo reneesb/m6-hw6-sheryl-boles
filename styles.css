@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgb(209, 240, 228);
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cg fill='%23b0f6ec' fill-opacity='0.4'%3E%3Cpath d='M0 0h80v80H0V0zm20 20v40h40V20H20zm20 35a15 15 0 1 1 0-30 15 15 0 0 1 0 30z' opacity='.5'%3E%3C/path%3E%3Cpath d='M15 15h50l-5 5H20v40l-5 5V15zm0 50h50V15L80 0v80H0l15-15zm32.07-32.07l3.54-3.54A15 15 0 0 1 29.4 50.6l3.53-3.53a10 10 0 1 0 14.14-14.14zM32.93 47.07a10 10 0 1 1 14.14-14.14L32.93 47.07z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+header {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+    padding: 40px;
+    border-bottom: 4px solid paleturquoise;
+}
+
+h1 {
+    width: 50%;
+    display: inline-flex;
+    color: rgb(125, 9, 233);
+    font-family: sans-serif;
+}
+
+h2 { 
+    color: rgb(112, 13, 161);
+}
+
+h3 {
+    color: rgb(112, 13, 161);
+
+}
+
+nav {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 45%;
+    text-align: right;
+}
+
+nav a {
+    color: rgb(125, 9, 233);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: medium;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background: rgb(6, 179, 202);
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+p {
+    margin: 20px 10px;
+    line-height: 140%;
+}
+
+main {
+    width: 55%;
+    background: azure;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+aside {
+    width: 25%;
+    height: 25%;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: flex-end; */
+    background-color: azure;
+    padding: 10px;
+    /* text-align: center; */
+    border-radius: 10px;
+    line-height: 140%;
+    /* vertical-align: top; */
+    margin-left: 10px;
+    align-content: center;
+}
+
+.kai {
+    float: left;
+    margin-right: 20px;
+    border-radius: 5%;
+}
+
+.social {
+    margin: 5px;
+    box-shadow: 2px 5px 5px rgb(105, 105, 105);
+}
+
+.foot {
+    display: flex;
+    justify-content: flex-start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    color: rgb(112, 13, 161);
+   
+}
